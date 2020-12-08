@@ -1,0 +1,36 @@
+.nav{
+    height: 50px;
+    background:rgb(5, 5, 5);
+}
+.nav div{
+    display:inline-block;
+    position:absolute;
+    left:0;
+    padding:15px;
+    font-size:20px;
+    color:rgb(255, 255, 255);
+}
+.nav ul{
+    position:absolute;
+    right:5px;
+}
+.nav ul li{
+    display:inline-block;
+}
+.nav ul li a{
+    color:rgb(255, 255, 255);
+    padding:5px;
+}
+.home{
+    background:url(../images/hanger.jpg);
+    background-size:cover;
+    height:150vh;
+}
+.home.text-container{
+    text-align: center;
+    display:flex;
+    align-items:center ;
+    justify-content: center;
+    height:90vh;
+    color: rgb(61, 58, 211);
+}
